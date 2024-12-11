@@ -1,0 +1,132 @@
+
+      .container h1{
+        text-align: center;
+        margin: 10px 0 10px 0;
+        font-family: monospace;
+        font-weight: bolder;
+      }
+      .form{
+        background-color: black;
+        padding: 5px 20px 0 20px;
+        color: yellow;
+        border-radius: 10px;
+      }
+      .form input{
+        margin: 5px 0 5px 0;
+      }
+      .form label {
+        font-size: 130%;
+        font-weight: bold;
+        font-family: monospace;
+      }
+      .form input:nth-child(3){
+        margin-bottom: 15px;  
+        border-radius: 5px;
+        font-size: 20px;
+        outline: none;
+        border: 2px solid rgb(232, 141, 22);
+        font-family: monospace;
+      }
+      .container .result-container {
+        background-color: rgb(232, 141, 22);
+        border-radius: 10px;
+      }
+      .container .result-container .result-list {
+        display: flex;
+      }
+      .container .result-container .result-list .details-card {
+        width: 100%;
+        margin-left: 10px;
+      }
+      .container .result-container .result-list .overview-class {
+        text-align: justify;
+      }
+
+      .carousel-inner {
+        border: 2px solid rgb(254, 182, 88);
+        border-radius: 10px;
+      }
+      
+      .carousel-inner img {
+        height: 700px;
+        overflow: hidden;
+      }
+      .accordion-header button {
+        background-color: rgb(254, 182, 88);
+      }
+      #accordionPanelsStayOpenExample {
+        margin: 20px 0;
+        padding-bottom: 30px;
+      }
+      .accordion-header button {
+        font-size: 25px;
+        font-family: bold;
+        font-style: italic;
+        font-family: cursive;
+      }
+      .accordion-header button:focus {
+        box-shadow: none;
+      }
+      .accordion-body {
+        font-family: monospace;
+        font-size: 20px;
+        text-align: justify;
+      }
+
+      .footer {
+        padding: 20px 0;
+        margin-bottom: 0;
+      }
+      .footer ul li div:nth-child(1){
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .footer ul li a{
+        text-decoration: none;
+        color: rgb(232, 141, 22);
+        cursor: pointer;
+      }
+
+      .logo {
+        width: 60px;
+        height: 60px;
+        border: 2px solid rgb(232, 141, 22);
+        border-radius: 50%;
+        margin: 0 20px;
+      }
+      .resubmit-form button{
+        border-radius: 10px;
+        width: 100%;
+        color: blue;
+        border: 2px solid rgb(232, 141, 22);
+        font-family: monospace;
+        padding: 2px;
+      }
+      
+      @media screen and (max-width: 810px) {
+        .container .result-container .result-list {
+          flex-direction: column;
+          align-items: center;
+          
+        }
+        .card {
+          margin-bottom: 10px;
+        }
+        .container .result-container .result-list .details-card {
+          width: 100%;
+          margin-left: 0px;
+        }
+      }
+
+      @media screen and (max-width: 550px) {
+        .footer ul li div:nth-child(1){
+          flex-direction: column;
+        }
+      }
+
+      @media (max-width: 810px) {
+        .poster-img {
+          width: 100% !important;
+        }
+      }
